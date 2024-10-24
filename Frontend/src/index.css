@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    input:-webkit-autofill {
+      background-color: white !important;
+      color: black !important;
+      -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+      box-shadow: 0 0 0px 1000px white inset !important;
+    }
+  
+    input:-webkit-autofill::first-line {
+      color: black !important;
+    }
+  }

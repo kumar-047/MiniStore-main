@@ -1,0 +1,10 @@
+[
+  {
+    "origin": [
+      "https://ministore-frontend-sxzm.onrender.com",
+    "https://ministore-admin.onrender.com" , 
+    ],
+    "method": ["GET", "POST", "PUT", "DELETE"],
+    "maxAgeSeconds": 3600
+  }
+]
